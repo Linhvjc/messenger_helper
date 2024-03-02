@@ -29,7 +29,7 @@ const MessageInput = () => {
 		// setSelectedImage(URL.createObjectURL(file));
 
 		try {
-			const response = await fetch("https://30e4-167-179-48-114.ngrok-free.app/message/image", {
+			const response = await fetch("https://e83d-167-179-48-114.ngrok-free.app/message/image", {
 				method: "POST",
 				body: formData,
 			});
